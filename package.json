@@ -1,0 +1,34 @@
+{
+  "name": "zargs",
+  "version": "0.0.0",
+  "description": "Lightweight wrapper around yargs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "argument",
+    "args",
+    "option",
+    "parser",
+    "parsing",
+    "cli",
+    "command"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kolodny/zargs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolodny/zargs/issues"
+  },
+  "homepage": "https://github.com/kolodny/zargs",
+  "dependencies": {
+    "yargs": "^1.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
